@@ -1,0 +1,37 @@
+{
+	"model": {
+		"type": "minecraft:select",
+		"property": "minecraft:display_context",
+		"cases": [
+			{
+				"when": [
+					"none",
+					"head",
+					"fixed"
+				],
+				"model": {
+					"type": "minecraft:model",
+					"model": "sage:item/3d/amethyst_permit"
+				}
+			},
+			{
+				"when": [
+					"ground",
+					"gui",
+					"thirdperson_lefthand",
+					"thirdperson_righthand",
+					"firstperson_lefthand",
+					"firstperson_righthand"
+				],
+				"model": {
+					"type": "minecraft:model",
+					"model": "sage:item/2d/amethyst_permit"
+				}
+			}
+		],
+		"fallback": {
+			"type": "minecraft:model",
+			"model": "sage:item/3d/redstone_permit"
+		}
+	}
+}

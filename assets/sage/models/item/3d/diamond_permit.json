@@ -1,0 +1,7 @@
+{
+	"parent": "sage:item/3d/template_permit",
+	"textures": {
+		"0": "sage:item/model/diamond_permit",
+		"particle": "minecraft:block/bone_block_side"
+	}
+}
